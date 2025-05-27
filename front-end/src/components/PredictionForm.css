@@ -1,0 +1,57 @@
+/* src/components/PredictionForm.css */
+
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.prediction-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.prediction-form button {
+  padding: 10px;
+  background-color: #1e90ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.prediction-form button:hover {
+  background-color: #0073e6;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  background-color: #f1f8f4;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.price-display {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.text{
+  color: black;
+}

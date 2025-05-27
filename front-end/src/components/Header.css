@@ -1,0 +1,11 @@
+/* src/components/Header.css */
+.header {
+  background-color: #1e90ff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
